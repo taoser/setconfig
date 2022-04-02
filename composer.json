@@ -1,0 +1,20 @@
+{
+    "name": "taoser/setconfig",
+    "description": "php confing",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Taoser",
+            "email": "changlin_zhao@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Taoser\\SetConfig\\": "src/"
+        }
+    }
+    
+}
