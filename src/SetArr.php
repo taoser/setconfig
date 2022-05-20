@@ -701,7 +701,7 @@ class SetArr
 						echo $k.'不存在 '; 
 						return false;
 					}
-					$patk = '/[^\n]*\'' . $v . '\'(.*?)\r?\n/';
+					$patk = '/[^\n]*\'' . $k . '\'(.*?)\r?\n/';
 				}
 
 				// 正则查找然后替换
